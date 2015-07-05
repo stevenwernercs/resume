@@ -1,0 +1,365 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\RequirePackage{graphicx}
+\graphicspath{{./cv_images/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.jpeg}
+
+\begin{document}
+
+% Your name and current job title/field
+\header{steven}{werner}{computer scientist} 
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+% In the aside, each new line forces a line break
+\begin{aside1} 
+\section{contact}
+1321 Greenwood Dr.
+Garland, TX 75041
++1 (315) 405-3311
+~
+\href{http://www.StevenWerner.name}{StevenWerner.name}
+\href{mailto:StevenWerner@acm.org}{StevenWerner@acm.org}
+%\href{http://linkedin.com/in/StevenWernerCS}{in://StevenWernerCS}
+%\href{https://github.com/stevenWernerCS}{gh://StevenWernerCS}
+%\href{https://plus.google.com/u/1/106384600588420199346/posts}{g+://StevenWernerCS}
+%Proficient: Java, C, MatLab, Python, Visual Basic, JavaScript, HTML, PHP, & Bash
+%Intermediate: Objective C, AutoIt, Haskell, Prolog, MySQL, XML, VXML, CMD, & QCL
+\section{languages}
+Native English
+Elementary Spanish
+\section{programming}
+{\color{red} $\varheartsuit$} Java \& C
+MatLab,  Bash, Python
+PHP, JavaScript, HTML
+VXML, \& AutoIt %Objective C Visual Basic LaTeX
+%\end{flushright}
+%\end{textblock}
+%\section{operating systems}
+%Windows, Linux \& Mac
+%\begin{textblock}{3.6}(1.5, 4.33)
+%\begin{flushright}
+%\section{editors}
+%eclipse, vi & emacs
+\end{aside1}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience }
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2014-Present}
+{Lymba Corporation}
+{Richardson, TX}
+{\emph{Software Developer} \\
+Natural language processing and knowledge extraction 
+\begin{itemize}
+\item 
+Maintain and improve the K-Extractor Tool
+\end{itemize}
+\begin{itemize}
+\item Manage ontology database for semantic expansion
+\end{itemize}}
+%------------------------------------------------
+\entry
+{2012--2014}
+{Interactive Systems Group  {\normalfont (ISG)}}
+{University of Texas at El Paso}
+{\emph{Undergraduate Research Assistant} \\
+Researched the utility of prosody in spoken information retrieval.
+\begin{itemize}
+\item %\href{http://StevenWerner.name/main/projects/prosody.php\#sidekick}{Developed a prosody based audio search application.}
+Developed a prosody based audio search application (Sidekick)
+\end{itemize}
+\begin{itemize}
+\item Improved on distance similarity model using linear regression
+\end{itemize}
+\begin{itemize}
+\item Joined lexical and prosodic models using raw probability estimates
+\end{itemize}}
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2013}
+{Bachelors {\normalfont of Science in Computer Science}}
+{University of Texas at El Paso}
+{Major GPA 3.7, Overall GPA: 3.3
+\begin{itemize}
+\item Selected for The National Science Foundation's Research Experience for Undergraduates Program at UTEP
+\end{itemize}}
+%------------------------------------------------
+\entry
+{2011}
+{{\normalfont Study Abroad}}
+{King Mongkut’s University of Technology at Thonburi, Bangkok}
+{Signals \& Systems, Digital Circuits Engineering \& C Programming}
+%------------------------------------------------
+\entry
+{2008}
+{Associate {\normalfont of Mathematics}}
+{El Paso Community College, Texas}
+{Overall GPA: 3.5}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{projects}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2013}
+{SenQual: Weather Anomaly Detection Web Application}
+{Course: Software Engineering}
+{User specified constraints applied to sensor data. System parsed constraints, verified near real-time streaming data, notifying user if constraints were violated.}
+%Team Project: 3-Tier Architecture PHP/Java/DataBase}
+%------------------------------------------------
+\entry
+{2012}
+{Sidekick: Prosody Based Information Retrieval System}
+{ISG: Research}
+{Built on top of a simple audio listening application that displays the transcribed text and audio. Sidekick provided the prosody based query-by-example search functionality as well as a simple transcript word search.}
+%------------------------------------------------
+%\entry
+%{2012}
+%{MIPS Pipeline Simulator}
+%{Course: Architecture II}
+%{Parsed simple MIPS assembly code into binary and executed code by simulating the instruction pipeline.}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{publications}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{1\textsuperscript{st} Author}
+{\href{http://ceur-ws.org/Vol-1043/mediaeval2013_submission_52.pdf}{Evaluating Prosody-Based Similarity Models for Information Retrieval}}
+{\href{http://ceur-ws.org/Vol-1043/}{MediaEval 2013}}
+{Steven D. Werner, Nigel G. Ward.}
+%------------------------------------------------
+\entry
+{2\textsuperscript{nd} Author}
+{\href{http://ceur-ws.org/Vol-1043/mediaeval2013_submission_2.pdf}{The Similar Segments in Social Speech Task} }
+{\href{http://ceur-ws.org/Vol-1043/}{MediaEval 2013}}
+{Nigel G. Ward, Steven D. Werner, David G. Novick, Elizabeth E. Shriberg, Catharine Oertel, Louis-Philippe Morency, Tatsuya Kawahara.}
+%------------------------------------------------
+\entry
+{}
+{\href{http://www.isca-speech.org/archive/interspeech_2013/i13_1569.html}{Using Dialog-Activity Similarity for Spoken Utterance Retrieval}}
+{\href{http://www.isca-speech.org/archive/interspeech_2013/}{InterSpeech 2013}}
+{Nigel G. Ward, Steven D. Werner. 1569-1573}
+%------------------------------------------------
+\entry
+{submitted}
+%{\href{http://www.cs.utep.edu/nigel/abstracts/prosody-ir2.html}{The Value of Prosody-Based Similarity Models for Information Retrieval}}
+%{Interspeech}
+%{Nigel G. Ward, Steven D. Werner, Fernando Garcia, Emilio Sanchis.}
+%------------------------------------------------
+%\entry
+%{}
+{\href{http://www.cs.utep.edu/nigel/abstracts/prosody-ir.html}{A Prosody-Based Vector-Space Model of Dialog Activity for Information Retrieval}}
+{Speech Communication}
+{Nigel G. Ward, Steven D. Werner, Fernando Garcia, Emilio Sanchis.}
+%------------------------------------------------
+\end{entrylist}
+
+\newpage
+\clearpage
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+% In the aside, each new line forces a line break
+\begin{aside2}
+%\raisebox{0cm}{\includegraphics[width=3.7cm]{microcrop}}
+%\textsuperscript{stevenWerner.name/helloMicrosoft/}
+~
+~
+\section{references}
+~
+\textbf{research}
+\href{http://www.cs.utep.edu/nigel/}{Dr. Nigel Ward}
+ISG Advisor
+UTEP CS Professor
+\href{mailto:nigel@utep.edu}{nigel@utep.edu}
++1 (915) 747-6827
+El Paso, TX
+~
+~
+\textbf{academic}
+\href{http://www.cs.utep.edu/agates/}{Dr. Ann Gates}
+Senior Project Mentor
+UTEP CS Chair
+\href{mailto:agates@utep.edu}{agates@utep.edu}
++1 (915) 747-5480
+El Paso, TX
+~
+~
+\textbf{peer}
+Dr. Shreyas Karkhedkar
+ISG Labmate / TA
+Google Analytics
+\href{mailto:karkhedkar.shreyas@gmail.com}{karkhedkar.shreyas@
+gmail.com}
++1 (915) 224-0891
+Mountain View, CA
+~
+Mr. Carlos Luavanos
+\small{Senior Project Teammate}
+UTEP BS in CS Grad
+\href{mailto:carlos.e.luevanos@gmail.com}{carlos.e.luevanos@
+gmail.com}
++1 (915) 240-3927
+El Paso, TX
+\end{aside2}
+
+
+%----------------------------------------------------------------------------------------
+%	OTHER EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{other experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2010--2011}
+{KBR, Al Asad Air Base}
+{Al Asad, An Abar Province, Iraq}
+{\emph{Aviation Fuels Account} \\
+Responsible for maintaining accountability records of all KBR's fuel on airfield. 
+(Capacity of 795,000 Gallons of JP-8) \\
+\textbf{KBR Star Award}: Increased efficiency \& accuracy of the Fuels Accounting Office.
+\begin{itemize}
+\item Within 2 months of assignment developed automated forms and reports through MS Word/Excel/Outlook automation with \textbf{Visual Basic}.
+\end{itemize}
+\textbf{KBR Appreciation Award}x3: Perfect fuel accounting audit scores.
+\begin{itemize}
+\item 3 consecutive quarters.
+\end{itemize}}
+%------------------------------------------------
+\entry
+{2008--2010}
+{Mesilla Valley Transportation}
+{El Paso, Texas}
+{\emph{Over The Road Driver} \\
+Approx. 250,000 miles driven. \\
+No accidents, no incidents, virtually no supervision. \\
+Drivers Education: Commercial Drivers License: Tanker, Doubles/Triples
+\begin{itemize}
+\item Mesilla Valley Transportation Institute 2008 El Paso, Texas
+\begin{itemize}
+\item \textbf{Highest GPA of class}
+\end{itemize}
+\end{itemize}}
+%------------------------------------------------
+\entry
+{2005--2006}
+{CAI Tutoring Lab, El Paso Community College}
+{El Paso, Texas}
+{\emph{Certified All Level Math/Physics Tutor} \\
+Unstructured setting: one on one, few on one \& large groups.}
+%------------------------------------------------
+\entry
+{2003--2009}
+{900\textsuperscript{th} Quartermaster Company, United States Army Reserves}
+{El Paso, Texas}
+{\emph{Petroleum Supply Specialist} E-4 \\
+STATUS: Honorably Discharged
+\begin{itemize}
+\item \textbf{Battalion Soldier of the Year 2006}
+\item \textbf{Army Achievement Medal}x4
+\end{itemize}
+Served as units acting Communications Sergeant
+\begin{itemize}
+\item Maintained SINCGARS other military communications equipment.
+\end{itemize}
+Military Education:
+\begin{itemize}
+\item 2008 Ft. Knox, KY: Hazmat “H7” Petroleum Vehicle Operator
+\begin{itemize}
+\item Qualified in the operation and operator maintenance of petroleum tank vehicles
+\end{itemize}
+\item 2008 Ft. Irwin, CA: U.S. Army Certified Combat Lifesaver
+\begin{itemize}
+\item Trained in Casualty First Aid, including administering an IV
+\end{itemize}
+\item 2004 Ft. Lee, VA: AIT MOS 77F/92F Distinguished Honor Graduate
+\begin{itemize}
+\item \textbf{Highest GPA of class}
+\end{itemize}
+\end{itemize}}
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	VOLUNTEER EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{volunteer experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2002--2004}
+{Horizon City Fire Department}
+{Horizon City, Texas}
+{\emph{Volunteer Fire Fighter} \\
+Training:
+\begin{itemize}
+\item Fire Hose, ‘Jaws of Life’, Blind Structure, Underground Tunnel, Limited Oxygen Rescue
+\end{itemize}}
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests}
+
+\textbf{professional:} general artificial intelligence, biorealistic neural networks, big data representation, information retrieval, software development, mobile app development, neuroscience, quantum computing \textbf{personal:} traveling, camping, hiking, percussion, tutoring, dirt biking
+
+\end{document}
