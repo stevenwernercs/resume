@@ -20,6 +20,16 @@
 \definecolor{gray}{HTML}{4D4D4D}
 \definecolor{lightgray}{HTML}{999999}
 
+\definecolor{tsrmcred}{HTML}{a51d21}
+\definecolor{tsdbmblue}{HTML}{27328b}
+\definecolor{tsmsmgray}{HTML}{45484f}
+\definecolor{tssbblack}{HTML}{1c1c1c}
+\definecolor{tsred}{HTML}{cc0000}
+\definecolor{tsgray}{HTML}{212121}
+\definecolor{tslightgray}{HTML}{818181}
+\definecolor{tsoffwhite}{HTML}{f2f2f2}
+\definecolor{tswhite}{HTML}{fafafa}
+
 \definecolor{msred}{HTML}{F8510C}
 \definecolor{msgreen}{HTML}{7EBA00}
 \definecolor{msblue}{HTML}{00A3F4}
@@ -50,7 +60,7 @@
   \colorlet{header}{white}
 \fi
 \colorlet{textcolor}{gray}
-\colorlet{headercolor}{gray}
+\colorlet{headercolor}{tsmsmgray}
 
 %%%%%%%%%
 % Fonts %
@@ -111,13 +121,12 @@
   {%
     \color{%
       \ifcase\value{colorCounter}%
-        glblue\or%
-        glred\or%
-        glyellow\or%
-        glblue\or%
-        glgreen\or%
-        glred\or%
-        brown\else%
+        tsrmcred\or%
+        tsdbmblue\or%
+        tssbblack\or%
+        tsdbmblue\or%
+        tsrmcred\or%
+        tsmsmgray\or%
         headercolor\fi%
     } #1#2#3%
   }%
