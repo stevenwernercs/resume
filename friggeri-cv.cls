@@ -121,12 +121,17 @@
   {%
     \color{%
       \ifcase\value{colorCounter}%
-        tsrmcred\or%
-        tsdbmblue\or%
-        tssbblack\or%
-        tsdbmblue\or%
-        tsrmcred\or%
-        tsmsmgray\or%
+%        tsrmcred\or%
+%        tsdbmblue\or%
+%        tssbblack\or%
+%        tsdbmblue\or%
+%        tsrmcred\or%
+%        tsmsmgray\or%
+           glblue\or%
+           glred\or%
+           glyellow\or%
+           glgreen\or%
+           glpurple\or%
         headercolor\fi%
     } #1#2#3%
   }%
