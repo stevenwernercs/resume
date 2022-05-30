@@ -130,8 +130,10 @@
            glblue\or%
            glred\or%
            glyellow\or%
+           glblue\or%
            glgreen\or%
-           glpurple\or%
+           glred\or%
+%           glpurple\or%
         headercolor\fi%
     } #1#2#3%
   }%
