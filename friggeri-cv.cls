@@ -35,6 +35,15 @@
 \definecolor{msblue}{HTML}{00A3F4}
 \definecolor{msyellow}{HTML}{FFBA00}
 
+\definecolor{oaip1}{HTML}{3C1361}
+\definecolor{oaip2}{HTML}{52307C}
+\definecolor{oaip3}{HTML}{663A82}
+\definecolor{oaip4}{HTML}{7C5295}
+\definecolor{oaip5}{HTML}{B491C8}
+
+\definecolor{azyellow}{HTML}{FF9900}
+\definecolor{azblue}{HTML}{146EB4}
+
 \definecolor{glred}{HTML}{F90101}
 \definecolor{glblue}{HTML}{0266C8}
 \definecolor{glgreen}{HTML}{00933B}
@@ -121,18 +130,32 @@
   {%
     \color{%
       \ifcase\value{colorCounter}%
-%        tsrmcred\or%
-%        tsdbmblue\or%
-%        tssbblack\or%
-%        tsdbmblue\or%
-%        tsrmcred\or%
-%        tsmsmgray\or%
-           glblue\or%
-           glred\or%
-           glyellow\or%
-           glblue\or%
-           glgreen\or%
-           glred\or%
+        tsrmcred\or%
+        tsdbmblue\or%
+        tssbblack\or%
+        tsdbmblue\or%
+        tsrmcred\or%
+        tsmsmgray\or%i
+%           oaip1\or%
+ %          oaip4\or%
+   %        oaip1\or%
+     %      oaip4\or%
+      %     oaip1\or%
+       %    oaip4\or%
+        %   oaip1\or%
+%           azyellow\or%
+  %         azblue\or%
+    %       azyellow\or%
+      %     azblue\or%
+        %   azyellow\or%
+          % azblue\or%
+           %azyellow\or%
+%           glblue\or%
+%           glred\or%
+%           glyellow\or%
+%           glblue\or%
+%           glgreen\or%
+%           glred\or%
 %           glpurple\or%
         headercolor\fi%
     } #1#2#3%
