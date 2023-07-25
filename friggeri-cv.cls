@@ -41,6 +41,8 @@
 \definecolor{oaip4}{HTML}{7C5295}
 \definecolor{oaip5}{HTML}{B491C8}
 
+\definecolor{rtnred}{HTML}{E61231}
+
 \definecolor{azyellow}{HTML}{FF9900}
 \definecolor{azblue}{HTML}{146EB4}
 
@@ -130,12 +132,12 @@
   {%
     \color{%
       \ifcase\value{colorCounter}%
-        tsrmcred\or%
-        tsdbmblue\or%
-        tssbblack\or%
-        tsdbmblue\or%
-        tsrmcred\or%
-        tsmsmgray\or%i
+%        tsrmcred\or%
+  %      tsdbmblue\or%
+    %    tssbblack\or%
+      %  tsdbmblue\or%
+        %tsrmcred\or%
+        %tsmsmgray\or%i
 %           oaip1\or%
  %          oaip4\or%
    %        oaip1\or%
@@ -143,13 +145,21 @@
       %     oaip1\or%
        %    oaip4\or%
         %   oaip1\or%
+              rtnred\or%
+              rtnred\or%
+              rtnred\or%
+              rtnred\or%
+              rtnred\or%
+              rtnred\or%
+              rtnred\or%
+              rtnred\or%
 %           azyellow\or%
   %         azblue\or%
     %       azyellow\or%
       %     azblue\or%
-        %   azyellow\or%
-          % azblue\or%
-           %azyellow\or%
+%           azyellow\or%
+  %         azblue\or%
+    %       azyellow\or%
 %           glblue\or%
 %           glred\or%
 %           glyellow\or%
